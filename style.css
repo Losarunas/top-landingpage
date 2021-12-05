@@ -1,0 +1,188 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    width: 80vw;
+    margin: 0 auto;
+}
+
+a{ 
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
+.button{
+    background-color: #3882F6;
+    color: #f9faf8;
+    cursor: pointer;
+    font-weight: bold;
+    padding: 8px 32px;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+/* 
+
+HEADER
+
+*/
+
+.header{
+    background-color: #1F2937;
+    color: #f9faf8;
+}
+
+.header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 16px;
+}
+
+.header ul{
+    list-style: none;
+    display: flex;
+    gap: 16px;
+}
+
+.header li a{
+    color: #f9faf8;
+}
+
+/*
+
+HERO
+
+*/
+
+.hero{
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    padding: 64px 0;
+}
+
+.hero .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px dotted darkcyan;
+}
+
+.hero__content,
+.hero__img{
+    flex: 1;
+}
+
+.hero__content{
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hero__img{
+    border: 1px solid green;
+    text-align: center;
+}
+
+.hero__img img{
+    width: 500px;
+}
+
+.hero__title{
+    font-size: 48px;
+    font-weight: 800;
+    color: #f9faf8;
+}
+
+.hero__text{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.hero__btn{
+    /* width: auto; */
+}
+
+/* 
+
+INFO
+
+*/
+
+.info{
+    margin: 64px 0;
+}
+
+.info .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.info__content{
+    margin-top: 24px;
+    display: flex;
+}
+
+.info__content li{
+    min-width: 350px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info img{
+    width:  200px;
+    height: 200px;
+    object-fit: cover;
+    margin-bottom: 16px;
+    border-radius: 15px;
+}
+
+.quote{
+    margin: 64px 0;
+    background-color: #E5E7EB;
+    padding: 64px 0;
+}
+
+.quote__text{
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+}
+
+.quote__author{
+    font-weight: bold;
+    text-align: end;
+    font-size: 24px;
+}
+
+/* 
+
+ACTION
+
+*/
+
+.action{
+    background-color: #3882F6;
+    padding: 64px;
+    color: #f9faf8;
+}
+
+.action__btn{
+    border: 1px solid #f9faf8;
+}
